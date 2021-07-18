@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	{% load static %}
+	{% include 'css.html' %}
+	   <title>About</title>
+        <style>
+	.bg-primary{
+		background-color: #320d6b!important;
+	}
+	.navbar-light .navbar-nav .nav-link {
+    color: white;
+	}
+	.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+		color: #ffc107;
+	}
+	.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+		color: black;
+		background-color:black;
+		border-radius:3px;
+	}
+	.navbar-nav .nav-link {
+	padding-right: 2.6rem!important;
+	padding-left: 2.6rem!important;
+	font-size:14px;
+	}
+	.shadow {
+	filter: drop-shadow(0 0 10px #333);
+	}
+        </style>
+    </head>
+    <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'index' %}">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'about' %}">EXPERIENCES</a>
+          </li>
+		  <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'skill' %}">PROJECTS</a>
+          </li>
+		  <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'contact' %}">CONTACT</a>
+          </li>
+		</ul>
+	  </div>
+	  </nav>
+    <div class="col-md-12 container-fluid mb-5 mt-5 p-5">
+        <div class="container-fluid"><h2><p><b>Experience</p></h2><hr>
+         <div class="row">
+		 <div class="card col-md-3" style="width: 18rem;">
+                <img src="#" class="card-img-top" style="height:300px;" alt="first">
+                <div class="card-body">
+                    <p class="card-text"><i>Machine Learning Intern</i><small class="form-text">testAing Service Pvt. Ltd.<br>May 2021 - July 2021</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://yt3.ggpht.com/a/AATXAJwSGTjg5okxI5E8IMhrgVI0S8HYeu9hQoXuiQ=s900-c-k-c0xffffffff-no-rj-mo" class="card-img-top" style="height:300px;" alt="second">
+                <div class="card-body">
+                    <p class="card-text"><i>Project Development Internship (Python)</i><small class="form-text">Utkarshini Educate<br>Sept 2020 - Oct 2020</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="http://analyzeinfotech.in/assets/images/analyze-logo.png" class="card-img-top" style="height:300px;" alt="third">
+				<div class="card-body">
+                  <p class="card-text"><i>Student Trainee</i><small class="form-text">Analyze Infotech India<br>Lucknow - Uttar Pradesh, India<br>July 2020 - Oct 2020</small></p>
+                </div>
+              </div>
+			  </div><h2><p><b>Courses, Hackathons & Contributions</p></h2><hr>
+			  <div class="row">
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://th.bing.com/th/id/OIP.-LqsGC3zr6V-LN4PjSGqKQHaB5?pid=Api&rs=1" class="card-img-top" style="height:300px;" alt="third">
+                <div class="card-body">
+                    <p class="card-text"><i>MIT COVID-19 Challenge : Turning the Tide</i><small class="form-text">Massachusetts Institute of Technology<br>Aug 2020</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://yt3.ggpht.com/a/AGF-l7_c89Pomv_UuZ1dI7LvUIKG8Js4KhXwIus7pg=s900-c-k-c0xffffffff-no-rj-mo" class="card-img-top" style="height:300px;" alt="fourth">
+                <div class="card-body">
+                    <p class="card-text"><i>Making India Future Ready Program</i><small class="form-text">IIEC Rise<br>Aug 2020 - Feb 2021</small></p>
+                </div>
+              </div>
+			   <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://1000logos.net/wp-content/uploads/2017/02/Harvard-college-emblems.jpg" class="card-img-top" style="height:300px;" alt="fifth">
+                <div class="card-body">
+                    <p class="card-text"><i>CS50- Introduction of Computer Science, Virtual</i><small class="form-text">Harvard University & Yale University<br>Cambridge, MA & New Haven, CT<br>Sept 2020 - Dec 2020</small></p>
+                </div>
+              </div>
+			   <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/1_p33qkid5/def_height/715/def_width/1366/version/100011/type/2/q/100" class="card-img-top" style="height:300px;" alt="sixth">
+                <div class="card-body">
+                    <p class="card-text"><i>Student Partner</i><small class="form-text">Great Learning<br>Sept 2020 - Present</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.qrvPyh6PCkaWtnAR-Gyc4wHaHa&pid=Api&P=0&w=300&h=300" class="card-img-top" style="height:300px;" alt="seventh">
+                <div class="card-body">
+                    <p class="card-text"><i>Global Nominee</i><small class="form-text">Nasa Space Apps Challenge<br>Oct 2020</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://d1hvwudqvjuczb.cloudfront.net/assets/brand/MITHM-logo-new-71b01c8fc90597cb1a9341cc6318cb2c577dbf81e448fc12b8939cd2c23300b2.png" class="card-img-top" style="height:300px;" alt="eighth">
+                <div class="card-body">
+                    <p class="card-text"><i>MIT Hacking Medicine</i><small class="form-text">Boston, America<br>Oct 2020</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://www.ohsu.edu/sites/default/files/2020-02/Invent-a-thon%20Logo.jpg" class="card-img-top" style="height:300px;" alt="nineth">
+                <div class="card-body">
+                    <p class="card-text"><i>OHSU Invent-a-thon</i><small class="form-text">Portland<br>Oct 2020</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://d1.awsstatic.com/events/aws-hosted-events/2017/APAC/ai-conclave-logo-skillenza.3aa718f0dd699555a5322bd8da6ecd4974001a30.jpg" class="card-img-top" style="height:300px;" alt="tenth">
+				<div class="card-body">
+                  <p class="card-text"><i>Campus Hustler North Zone</i><small class="form-text">Skillenza<br>Dec 2020 - Present</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/WhatsApp%20Image%202020-12-10%20at%2012.12.41%20AM.jpeg" class="card-img-top" style="height:300px;" alt="eleventh">
+				<div class="card-body">
+                  <p class="card-text"><i>Project Admin & Maintainer</i><small class="form-text">Devscript Winter Of Code 21'<br>Devscript<br>Dec 2020 - March 2021</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0?e=2159024400&v=beta&t=XI0sodlaxZHQq00m9PO7l5CX08aBSW-RQgOYvKXhZuo" class="card-img-top" style="height:300px;" alt="twelveth">
+				<div class="card-body">
+                  <p class="card-text"><i>Project Contributor</i><small class="form-text">Script Winter of Code<br>Dec 2020 - Feb 2021</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://media-exp1.licdn.com/dms/image/C560BAQFI7ynV-smCEQ/company-logo_200_200/0/1535490080616?e=2159024400&v=beta&t=UZBpIv5bH8o17gREPulTDp1MFQqSKj6XvK6D1LqhdCo" class="card-img-top" style="height:300px;" alt="thirteen">
+				<div class="card-body">
+                  <p class="card-text"><i>Project Contributor</i><small class="form-text">NJACK, IITP<br>Dec 2020 - Jan 2021</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://d33wubrfki0l68.cloudfront.net/1ba92d58dd8bd127bd16925fb951bf048516fd6b/bae5a/prod/images/about/the-coding-school-logo.jpg" class="card-img-top" style="height:300px;" alt="fourteen">
+                <div class="card-body">
+                    <p class="card-text"><i>Quantum Computing, Computer Science(Semester -2)</i><small class="form-text">The Coding School<br>Qubit by Qubit, IBM<br>Jan 2021 - May 2021</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://d8it4huxumps7.cloudfront.net/images/d2c-logo/d2clogo.svg" class="card-img-top" style="height:300px;" alt="fifteen">
+                <div class="card-body">
+                    <p class="card-text"><i>Online Quiz Fair-21</i><small class="form-text">Dare2Compete<br>March 2021</small></p>
+                </div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://avatars1.githubusercontent.com/u/47062438?s=200&v=4" class="card-img-top" style="height:300px;" alt="sixteen">
+				<div class="card-body">
+                  <p class="card-text"><i>Innerve Participant</i><small class="form-text">Innerve 5.0<br>AIT Open Source Software Club<br>March 2021</small></p>
+                </div>
+              </div>
+            </div>
+        </div>
+  </div>
+<div class="container-fluid p-3 text-white" style="background-color:black;">   
+<p class="text-center">Developed & Design By - <i>Ritu Verma</i><br>Copyright@rituvermaCS</p></div> 
+   {% include 'jscript.html' %}
+	</body>
+</html>

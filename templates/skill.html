@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	{% load static %}
+	{% include 'css.html' %} 
+	   <title>Projects</title>
+        <style>
+	.bg-primary{
+		background-color: #320d6b!important;
+	}
+	.navbar-light .navbar-nav .nav-link {
+    color: white;
+	}
+	.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+		color: #ffc107;
+	}
+	.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+		color: black;
+		background-color:black;
+		border-radius:3px;
+	}
+	.navbar-nav .nav-link {
+	padding-right: 2.6rem!important;
+	padding-left: 2.6rem!important;
+	font-size:14px;
+	}
+	.shadow {
+	filter: drop-shadow(0 0 10px #333);
+	}
+        </style>
+    </head>
+    <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'index' %}">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'about' %}">EXPERIENCES</a>
+          </li>
+		  <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'skill' %}">PROJECTS</a>
+          </li>
+		  <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'contact' %}">CONTACT</a>
+          </li>
+		</ul>
+	  </div>
+	  </nav>
+	  <div class="col-md-12 container-fluid mb-5 mt-5 p-5">
+        <div class="container-fluid">
+         <div class="row">
+              <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://i.pinimg.com/originals/54/01/fa/5401fa515a28642beaca7678147159c0.jpg" class="card-img-top" style="height:300px;" alt="first">
+                <div class="card-body">
+                    <p class="card-text"><i>Autonomous Line Follower</i>
+					<a href="https://www.youtube.com/watch?v=tZ8wxvGWCXk" class="btn btn-warning">Demo</a></p>
+                </div>
+              </div>
+              <div class="card col-md-3" style="width: 18rem;">
+                <img src="{% static 'C:/Users/mk/portfolio/portfolio/static/images/6.png' %}" class="card-img-top" style="height:300px;" alt="second">
+                <div class="card-body">
+                   <p class="card-text"><i>Online Voting System Software</i>
+					<a href="https://github.com/rituvermaCS/Virtual-Voting-System-" class="btn btn-success">Source Code</a></p>
+				</div>
+              </div>
+              <div class="card col-md-3" style="width: 18rem;">
+                <img src="{% static 'C:/Users/mk/portfolio/portfolio/static/images/1.png' %}" class="card-img-top" style="height:300px;" alt="third">
+                <div class="card-body">
+                   <p class="card-text"><i>Institutional Website</i>
+					<a href="https://github.com/rituvermaCS/BICT-Institute" class="btn btn-success">Source Code</a></p>
+				</div>
+              </div>
+              <div class="card col-md-3" style="width: 18rem;">
+                <img src="{% static 'C:/Users/mk/portfolio/portfolio/static/images/2.png' %}" class="card-img-top" style="height:300px;" alt="fourth">
+                <div class="card-body">
+                   <p class="card-text"><i>E- Learning Website</i>
+					<a href="https://github.com/rituvermaCS/E-Learning" class="btn btn-success">Source Code</a></p>
+				</div>
+              </div>
+              <div class="card col-md-3" style="width: 18rem;">
+                <img src="{% static 'C:/Users/mk/portfolio/portfolio/static/images/7.png' %}" class="card-img-top" style="height:300px;" alt="fifth">
+                <div class="card-body">
+                   <p class="card-text"><i>Online Bus Booking</i>
+					<a href="https://github.com/rituvermaCS/online-bus-booking" class="btn btn-success">Source Code</a></p>
+				</div>
+              </div>
+              <div class="card col-md-3" style="width: 18rem;">
+                <img src="{% static 'C:/Users/mk/portfolio/portfolio/static/images/5.png' %}" class="card-img-top" style="height:300px;" alt="sixth">
+                <div class="card-body">
+                  <p class="card-text"><i>Feedy Caterpillar</i>
+					<a href="https://github.com/rituvermaCS/Feedy-Caterpillar-Game" class="btn btn-success">Source Code</a></p>
+					<a href="https://www.youtube.com/watch?v=15XrMTkd5g0" class="btn btn-warning">Demo</a></p>
+				</div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="{% static 'C:/Users/mk/portfolio/portfolio/static/images/4.png' %}" class="card-img-top" style="height:300px;" alt="seventh">
+                <div class="card-body">
+                   <p class="card-text"><i>Eggy - Bowl: Egg Catcher</i>
+					<a href="https://github.com/rituvermaCS/Eggy-Bowl" class="btn btn-success">Source Code</a></p>
+					<a href="https://www.youtube.com/watch?v=DqqEgIu3fJ8" class="btn btn-warning">Demo</a></p>
+				</div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://th.bing.com/th/id/OIP.aNOcz3lbmXGlJZF5BUFvvgD6D6?pid=Api&rs=1" class="card-img-top" style="height:300px;" alt="eighth">
+                <div class="card-body">
+                   <p class="card-text"><i>Data Parserory</i>
+					<a href="https://github.com/rituvermaCS/Parse-data-with-web-scrapping" class="btn btn-success">Source Code</a></p>
+				</div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://th.bing.com/th/id/OIP.SbIBLSCXLl0vNyX11waOhQHaHa?pid=Api&w=800&h=800&rs=1" class="card-img-top" style="height:300px;" alt="nineth">
+                <div class="card-body">
+                   <p class="card-text"><i>Flowry- Voice Assistant</i>
+					<a href="https://github.com/Iiec-rise-python-task/Menu-Driven-With-CGI" class="btn btn-success">Source Code</a></p>
+					<a href="https://www.youtube.com/watch?v=YvxNSYZMg04&t=136s" class="btn btn-warning">Demo</a></p>
+				</div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://cdn-images-1.medium.com/max/1600/0*NWL2Lt_uACjRIH6w." class="card-img-top" style="height:300px;" alt="nineth">
+                <div class="card-body">
+                   <p class="card-text"><i>Object Detection</i>
+					<a href="https://github.com/rituvermaCS/obj-detection" class="btn btn-success">Source Code</a></p>
+				</div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://i1.wp.com/techconnecto.com/wp-content/uploads/2017/09/Do-Twitter-Sentiment-Analysis-for-Free-Online-Download-Report-in-CSV.png?fit=600%2C360&ssl=1" class="card-img-top" style="height:300px;" alt="nineth">
+                <div class="card-body">
+                   <p class="card-text"><i>Twitter Sentiment Analysis</i>
+					<a href="https://github.com/rituvermaCS/Twitter_Sentiment-al" class="btn btn-success">Source Code</a></p>
+				</div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://miro.medium.com/max/1638/1*CzYWFELOgIhenK42NdCGEQ.png" class="card-img-top" style="height:300px;" alt="nineth">
+                <div class="card-body">
+                   <p class="card-text"><i>Recommendation Engine Using Scratch</i><br>
+					<a href="https://github.com/rituvermaCS/Recommendation_Engine_using_Scratch" class="btn btn-success">Source Code</a></p>
+				</div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://cdn-images-1.medium.com/max/800/1*av47vApmzuM0AN21VaIcSA.png" class="card-img-top" style="height:300px;" alt="nineth">
+                <div class="card-body">
+                   <p class="card-text"><i>Visual Recognition Datasets for Deep Learning</i>
+					<a href="https://github.com/rituvermaCS/Visual-Recognition-Datasets-for-Deep-Learning" class="btn btn-success">Source Code</a></p>
+				</div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://www.hdfstutorial.com/wp-content/uploads/2019/11/web-scraping.png" class="card-img-top" style="height:300px;" alt="nineth">
+                <div class="card-body">
+                   <p class="card-text"><i>Web Scraping Tool</i>
+					<a href="https://github.com/rituvermaCS/Web-Scrapping-Using-Selenium" class="btn btn-success">Source Code</a></p>
+				</div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://netzwerkacademy.com/wp-content/uploads/2020/05/machinelearning.jpg" class="card-img-top" style="height:300px;" alt="nineth">
+                <div class="card-body">
+                   <p class="card-text"><i>Choose Algorithm</i>
+					<a href="https://github.com/rituvermaCS/Choose-Algorithm" class="btn btn-success">Source Code</a></p>
+				</div>
+              </div>
+			  <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://redtechdigital.co.uk/wp-content/uploads/2019/07/ai_chatbot.jpg" class="card-img-top" style="height:300px;" alt="nineth">
+                <div class="card-body">
+                   <p class="card-text"><i>AI Chatbot</i><br>
+					<a href="https://github.com/rituvermaCS/AI_Chatbot" class="btn btn-success">Source Code</a></p>
+					<a href="https://www.youtube.com/watch?v=R4LJI7mAM6w" class="btn btn-warning">Demo</a></p>
+				</div>
+              </div>
+			   <div class="card col-md-3" style="width: 18rem;">
+                <img src="https://weddlesoftware.com/wp-content/uploads/2016/12/Trace-Mobile-Phone-Location-By-IMEI-Mobile-Number-Latest-Tracker.png" class="card-img-top" style="height:300px;" alt="nineth">
+                <div class="card-body">
+                   <p class="card-text"><i>Phone Number Country Tracker</i><br>
+					<a href="https://github.com/rituvermaCS/Phone_number_tracker" class="btn btn-success">Source Code</a></p>
+					<a href="https://www.youtube.com/watch?v=HGxZABquiEw&t=37s" class="btn btn-warning">Demo</a></p>
+				</div>
+              </div>
+			  </div>
+        </div>
+  </div>
+<div class="container-fluid p-3 text-white" style="background-color:black;">   
+<p class="text-center">Developed & Design By - <i>Ritu Verma</i><br>Copyright@rituvermaCS</p></div> 
+{% include 'jscript.html' %}
+	</body>
+</html>

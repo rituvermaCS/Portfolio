@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	{% load static %}
+	{% include 'css.html' %}  
+	   <title>Index</title>
+        <style>
+	.bg-primary{
+		background-color: #320d6b!important;
+	}
+	.navbar-light .navbar-nav .nav-link {
+    color: white;
+	}
+	.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+		color: #ffc107;
+	}
+	.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+		color: black;
+		background-color:black;
+		border-radius:3px;
+	}
+	.navbar-nav .nav-link {
+	padding-right: 2.6rem!important;
+	padding-left: 2.6rem!important;
+	font-size:14px;
+	}
+	.shadow {
+	filter: drop-shadow(0 0 10px #333);
+	}
+        </style>
+    </head>
+    <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="#">Ritu Verma</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'index' %}">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'about' %}">EXPERIENCES</a>
+          </li>
+		  <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'skill' %}">PROJECTS</a>
+          </li>
+		  <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'contact' %}">CONTACT</a>
+          </li>
+		</ul>
+	  </div>
+	  </nav>
+	  <div class="col-md-3"></div>
+    <div class="col-md-8 container-fluid">
+	<div class="card shadow">
+  <div class="card-body">
+ <center><img src="{% static 'C:/Users/mk/portfolio/portfolio/static/images/ritu_pic.jpg' %}" class="d-block w-100" style="max-width: 22rem;"></center>
+ </div>  
+<h4 class="card-title text-center"><i>Ritu Verma</i><small class="form-text text-muted">Computer Science & Engineering<br><i>Bachelor of Technology</i><small class="form-text">University of Lucknow - Uttar Pradesh, India<br>2018-2022</small><small>Field of interest: Software Development, Machine Learning, Artificial Intelligence</small></small></h4>		
+     </div>
+	 <hr>
+  <center>
+  <div><h3>About Me!</h3><br><h6>My name is Ritu Verma. I am persuing BTech in Computer Science and Engineering from Faculty of Engineering,
+  University of Lucknow. I am a Software Developer with 1+ year unindustrial Experience and Deploy my Four Software in
+  the Market till now. I have completed my Training from Analyze Infotech Lucknow as Web development Trainee for 4 Months.
+  I also completed my internship from Utkarshini Edutech as Project Development Intern for 2 months where I develop 2 Games 
+  using Python and Data anlyze of 5 Dataset included "Covid-19 Cases rising in india 2020". I took participate in so many 
+  National Level and International Level where I recieved so many prize and Goodies. I am also part of so many Technical Community.
+  Currently I am doing my Summer Internship 2021 in testaing.ai as Machine Learning Intern for 2 Months.</h6></div></center>
+  </div>
+  <div class="col-md-2"></div>
+<div class="container-fluid p-3 text-white" style="background-color:black;">   
+<p class="text-center">Develope & Designed By - <i>Ritu Verma</i><br>Copyright@rituvermaCS</p></div> 
+{% include 'jscript.html' %}
+	</body>
+</html>

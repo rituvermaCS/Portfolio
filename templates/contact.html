@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	{% load static %}
+	{% include 'css.html' %}
+	   <title>Contact</title>
+        <style>
+	.bg-primary{
+		background-color: #320d6b!important;
+	}
+	.navbar-light .navbar-nav .nav-link {
+    color: white;
+	}
+	.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+		color: #ffc107;
+	}
+	.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+		color: black;
+		background-color:black;
+		border-radius:3px;
+	}
+	.navbar-nav .nav-link {
+	padding-right: 2.6rem!important;
+	padding-left: 2.6rem!important;
+	font-size:14px;
+	}
+	.shadow {
+	filter: drop-shadow(0 0 10px #333);
+	}
+	i{
+            padding:3px;
+            border-radius:20%;
+            box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+        }
+        .fa-facebook{
+            background-color: blue;
+            color:white;
+        }
+        .fa-twitter{
+            background-color: skyblue;
+            color:white;
+        }
+        .fa-instagram{
+            background-color:rgb(216, 61, 61);
+            color:white;
+        }
+		.fa-envelope-o{
+            background-color:rgb(216, 61, 61);
+            color:white;
+        }
+		.fa-linkedin-square{
+            background-color:blue;
+            color:white;
+        }
+		.fa-github-square{
+            background-color:black;
+            color:white;
+        }
+		.fa-telegram{
+            background-color:skyblue;
+            color:white;
+        }
+		.fa-snapchat{
+            background-color:yellow;
+            color:black;
+        }
+		.fa-eercast{
+            background-color:green;
+            color:purple;
+        }
+		.fa-youtube{
+            background-color:red;
+            color:white;
+        }
+        </style>
+    </head>
+    <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'index' %}">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'about' %}">EXPERIENCES</a>
+          </li>
+		  <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'skill' %}">PROJECTS</a>
+          </li>
+		  <li class="nav-item active">
+            <a class="nav-link text-white" href="{% url 'contact' %}">CONTACT</a>
+          </li>
+		</ul>
+	  </div>
+	  </nav>
+	  <div class="container-fluid mb-5 mt-5 p-5">
+	  <div class="row">
+	  <div class="col-md-6">
+        <div class="container-fluid">
+		 <div class="card" style="height:50px; width:100%">
+                <div class="card-body">
+                  <h5 class="card-text">
+				  <li style="float: left; list-style:none; padding-left:10px;">
+                <i class="fa fa-envelope-o"></i></li>
+				  <a href="#"><span class="text-dark" style="font-style: italic;">rituvermaetw2018@gmail.com</span></a></h5>
+               </div>
+              </div>
+			 <div class="card" style="height:50px; width:100%">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-text">
+				  <li style="float: left; list-style:none; padding-left:10px;">
+                <i class="fa fa-linkedin-square"></i></li>
+				  <a href="https://www.linkedin.com/in/ritu-verma-2018"><span class="text-dark" style="font-style: italic;">Linkedin/Ritu Verma</span></a></h5>
+               </div>
+              </div>
+			  <div class="card" style="height:50px; width:100%">
+                <div class="card-body">
+                  <h5 class="card-text">
+				  <li style="float: left; list-style:none; padding-left:10px;">
+                <i class="fa fa-twitter"></i></li>
+				  <a href="https://twitter.com/rituver20638886?s=09"><span class="text-dark" style="font-style: italic;">twitter/@rituver20638886</span></a></h5>
+               </div>
+              </div>
+			  <div class="card" style="height:50px; width:100%">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-text">
+				  <li style="float: left; list-style:none; padding-left:10px;">
+                <i class="fa fa-github-square"></i></li>
+				  <a href="https://github.com/rituvermaCS"><span class="text-dark" style="font-style: italic;">github/rituvermaCS</span></a></h5>
+               </div>
+              </div>
+			  <div class="card" style="height:50px; width:100%">
+                <div class="card-body">
+                  <h5 class="card-text">
+				  <li style="float: left; list-style:none; padding-left:10px;">
+                <i class="fa fa-telegram"></i></li>
+				  <a href="https://web.telegram.org/#/im?p=s1157153021_13296323037757915632"><span class="text-dark" style="font-style: italic;">t.me/@Rituuv</span></a></h5>
+               </div>
+              </div>
+			  <div class="card" style="height:50px; width:100%">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-text">
+				  <li style="float: left; list-style:none; padding-left:10px;">
+                <i class="fa fa-facebook"></i></li>
+				  <a href="https://www.facebook.com/profile.php?id=100028008964420"><span class="text-dark" style="font-style: italic;">facebook/Ritu Verma</span></a></h5>
+               </div>
+              </div>
+			  <div class="card" style="height:50px; width:100%">
+                <div class="card-body">
+                  <h5 class="card-text">
+				  <li style="float: left; list-style:none; padding-left:10px;">
+                <i class="fa fa-instagram"></i></li>
+				  <a href="https://www.instagram.com/invites/contact/?i=1fpevyg5laoiy&utm_content=40tqfm6"><span class="text-dark" style="font-style: italic;">instagram/@_.rituverma._</span></a></h5>
+               </div>
+              </div>
+			  <div class="card" style="height:50px; width:100%">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-text">
+				  <li style="float: left; list-style:none; padding-left:10px;">
+                <i class="fa fa-youtube"></i></li>
+				  <a href="https://www.youtube.com/channel/UC-x-KLJRmpthj9jRQKEIFaQ"><span class="text-dark" style="font-style: italic;">YouTube/Ritu Verma</span></a></h5>
+               </div>
+              </div>
+        </div>
+  </div>
+  <div class="col-md-6">
+	<form method="POST" action="{% url 'contact' %}">
+	<h1>Send Message</h1>
+	{% for msg in messages %}
+	<div class="alert alert-{{msg.tags}}">{{msg}}</div>
+	{% endfor %}
+	{% csrf_token %}
+  <div class="form-group">
+  
+    <label for="exampleInputText1">Name</label>
+    <input type="text" name="name" class="form-control" id="exampleInputText1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputText1">Message</label>
+    <input type="text" name="msg" class="form-control" id="exampleInputText1">
+	<small>You can't send more than 1000 words at once.</small>
+  </div>
+  <button type="submit" class="btn btn-dark">Send</button>
+    <button type="reset" class="btn btn-dark">Cancel</button>
+</form>
+<div class="container" style="height:10px"></div>
+	</div>
+	</div>
+	</div>
+<div class="container-fluid p-3 text-white" style="background-color:black;">   
+<p class="text-center">Developed & Design By - <i>Ritu Verma</i><br>Copyright@rituvermaCS</p></div> 
+{% include 'jscript.html' %}
+	</body>
+</html>
